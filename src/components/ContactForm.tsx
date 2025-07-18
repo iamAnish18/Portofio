@@ -54,7 +54,7 @@ const ContactForm = () => {
     {
       icon: Mail,
       title: 'Email',
-      content: 'iamanishtamoli18@gmail.com  ',
+      content: 'iamanishtamoli.18@gmail.com  ',
       gradient: 'from-blue-400 to-cyan-500'
     }
   ];
