@@ -5,59 +5,57 @@ import { Button } from '@/components/ui/button';
 const ProjectsSection = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product catalog, shopping cart, and payment processing.',
-      image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+      title: 'Online Marketplace Platform',
+      description: 'A full-stack Online Marketplace solution with React, Node.js, and Express.js integration. Features include user authentication, product catalog, Listing cart, and payment processing.',
+      image: 'https://images.unsplash.com/photo-1669301048918-6ca9a3cd39c1?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      technologies: ['React', 'Node.js', 'MongoDB', 'Express.js'],
       gradient: 'from-blue-500 to-purple-600',
-      demoUrl: '#',
-      githubUrl: '#'
+      githubUrl: 'https://github.com/iamAnish18/KeyDwell'
     },
     {
-      title: 'AI-Powered Dashboard',
-      description: 'An intelligent analytics dashboard using machine learning to provide insights. Built with Python backend and React frontend with interactive data visualizations.',
-      image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop',
-      technologies: ['Python', 'React', 'TensorFlow', 'D3.js'],
+      title: 'Social Links',
+      description: 'Links is a free-to-use project designed to easily connect one person to another. It presents a collection of projects and social media links in a visually appealing way, utilizing animations to enhance the user experience.',
+      image: 'https://media.istockphoto.com/id/804296080/photo/concept-of-business-international-network-interface-technology-concept.jpg?s=1024x1024&w=is&k=20&c=1pfA8OZPDsT81v12pUbR2kERhUPzBcQskAOWtQaqpbg=',
+      technologies: ['Html5', 'Css3', 'JavaScprit'],
       gradient: 'from-green-500 to-teal-600',
-      demoUrl: '#',
-      githubUrl: '#'
+      githubUrl: 'https://github.com/iamAnish18/link-s'
     },
-    {
-      title: 'Mobile Finance App',
-      description: 'A React Native mobile application for personal finance management with real-time expense tracking, budget planning, and financial goal setting.',
-      image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop',
-      technologies: ['React Native', 'Firebase', 'Redux', 'Chart.js'],
-      gradient: 'from-pink-500 to-rose-600',
-      demoUrl: '#',
-      githubUrl: '#'
-    },
-    {
-      title: 'Blockchain DApp',
-      description: 'Decentralized application for NFT marketplace built on Ethereum. Features smart contracts, Web3 integration, and modern UI for trading digital assets.',
-      image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop',
-      technologies: ['Solidity', 'Web3.js', 'React', 'IPFS'],
-      gradient: 'from-orange-500 to-red-600',
-      demoUrl: '#',
-      githubUrl: '#'
-    },
-    {
-      title: 'Social Media Platform',
-      description: 'A modern social networking platform with real-time messaging, content sharing, and community features. Built with scalability and performance in mind.',
-      image: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&h=400&fit=crop',
-      technologies: ['Next.js', 'PostgreSQL', 'Socket.io', 'Redis'],
-      gradient: 'from-purple-500 to-indigo-600',
-      demoUrl: '#',
-      githubUrl: '#'
-    },
-    {
-      title: 'IoT Monitoring System',
-      description: 'Real-time monitoring system for IoT devices with data visualization, alerting, and remote control capabilities. Handles thousands of concurrent connections.',
-      image: 'https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=600&h=400&fit=crop',
-      technologies: ['Node.js', 'InfluxDB', 'React', 'MQTT'],
-      gradient: 'from-cyan-500 to-blue-600',
-      demoUrl: '#',
-      githubUrl: '#'
-    }
+    // {
+    //   title: 'Mobile Finance App',
+    //   description: 'A React Native mobile application for personal finance management with real-time expense tracking, budget planning, and financial goal setting.',
+    //   image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop',
+    //   technologies: ['React Native', 'Firebase', 'Redux', 'Chart.js'],
+    //   gradient: 'from-pink-500 to-rose-600',
+    //   demoUrl: '#',
+    //   githubUrl: '#'
+    // },
+    // {
+    //   title: 'Blockchain DApp',
+    //   description: 'Decentralized application for NFT marketplace built on Ethereum. Features smart contracts, Web3 integration, and modern UI for trading digital assets.',
+    //   image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop',
+    //   technologies: ['Solidity', 'Web3.js', 'React', 'IPFS'],
+    //   gradient: 'from-orange-500 to-red-600',
+    //   demoUrl: '#',
+    //   githubUrl: '#'
+    // },
+    // {
+    //   title: 'Social Media Platform',
+    //   description: 'A modern social networking platform with real-time messaging, content sharing, and community features. Built with scalability and performance in mind.',
+    //   image: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&h=400&fit=crop',
+    //   technologies: ['Next.js', 'PostgreSQL', 'Socket.io', 'Redis'],
+    //   gradient: 'from-purple-500 to-indigo-600',
+    //   demoUrl: '#',
+    //   githubUrl: '#'
+    // },
+    // {
+    //   title: 'IoT Monitoring System',
+    //   description: 'Real-time monitoring system for IoT devices with data visualization, alerting, and remote control capabilities. Handles thousands of concurrent connections.',
+    //   image: 'https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=600&h=400&fit=crop',
+    //   technologies: ['Node.js', 'InfluxDB', 'React', 'MQTT'],
+    //   gradient: 'from-cyan-500 to-blue-600',
+    //   demoUrl: '#',
+    //   githubUrl: '#'
+    // }
   ];
 
   return (
@@ -96,10 +94,6 @@ const ProjectsSection = () => {
                       className="bg-white/20 backdrop-blur-sm text-white hover:bg-white/30"
                       asChild
                     >
-                      <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="w-4 h-4 mr-2" />
-                        Live Demo
-                      </a>
                     </Button>
                     <Button
                       size="sm"
